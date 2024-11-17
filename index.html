@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact List</title>
+</head>
+<body>
+    <h1>Contact List</h1>
+
+    <!-- Contact list display area -->
+    <div id="contactListArea">
+        <h2>Current Contacts</h2>
+        <ul id="contactList"></ul>
+    </div>
+
+    <!-- Display first and last contacts -->
+    <div id="firstLastContacts">
+        <h2>First and Last Contacts</h2>
+        <p><strong>First Contact:</strong> <span id="firstContact">None</span></p>
+        <p><strong>Last Contact:</strong> <span id="lastContact">None</span></p>
+    </div>
+
+    <!-- Form to add a new contact -->
+    <h2>Add a New Contact</h2>
+    <form id="addContactForm">
+        <label>
+            Name: <input type="text" id="name" required>
+        </label><br>
+        <label>
+            Phone Number: <input type="text" id="phone" required>
+        </label><br>
+        <label>
+            Email Address: <input type="text" id="email" required>
+        </label><br>
+        <button type="submit">Add Contact</button>
+    </form>
+
+    <script src="contactList.js"></script>
+</body>
+</html>
